@@ -9,6 +9,7 @@ import org.apache.http.util.EntityUtils;
 public class HttpClientMain {
 
 	public static void main(String[] args) throws Exception {
+		//just test git push feature
 		String url = "http://localhost:8080/normalHello";
 		HttpGet httpget = new HttpGet(url);		
 		CloseableHttpClient httpclient = HttpClients.createDefault();
